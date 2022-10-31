@@ -1,0 +1,281 @@
+*{font-family: 'Roboto', sans-serif;
+    font-size: 15px;}
+    
+    /*Header*/
+    .header{
+        padding: 0em 5em;
+        margin-top: 0;
+    }
+    .S1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 2em 0em 5em 0em;}
+        .datos{
+            display: flex;}
+            .lista-datos{
+            margin: 0.5em;
+            color: black;
+            text-decoration: underline white;}
+    
+    .S2{
+        display: flex;
+        align-items: center;
+        padding-bottom: 2em;}
+        .texto{
+        order: -1;
+        flex-direction: column;}
+        .titulo{
+            font-size: 40px;
+            font-weight: bolder;
+            margin-bottom: 0.5em;}
+        .parrafo{
+            font-size: 20px;
+            margin-bottom: 0.5em;}
+        .lista-intro-ul{
+            display: flex;
+            font-size: 12px;
+            font-weight: bolder;}
+            .lista-intro{margin-right: 5em;}
+        .mi-foto{
+            width: 20em;
+            height: 19em;    
+            border-radius: 50%;
+            margin: 2em;}
+    
+    /*Main*/
+    .main{
+        display: flex;
+        flex-direction: column;}
+    
+    .main-s1{
+        background: rgb(233, 247, 248);
+        padding: 5em 0em 5em 5em;}
+    .main-s1-titulo{
+        font-size: 30px;
+        font-weight: bolder;
+        margin-bottom: 0.5em;}
+    .main-s1-texto{padding-right: 30em;}
+    
+    .main-s2, .main-s3, .main-s5{
+        width: 100%;}
+    .main-s3{margin-bottom: 5em;}
+    .main-s2-skills, .main-s3-hobbies, .main-s4-formación, .main-s5-titulo{
+        margin-top: 3em;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bolder;
+        margin-bottom: 3em;}
+    .main-s2-skills-iconos, .main-s3-hobbies-cuadro {
+        display: flex;
+        justify-content: space-between;
+        padding: 0em 5em 1em 5em;}
+    .main-s2-skills-ul,.main-s3-hobbies-li{
+        background: rgb(240, 240, 240);
+        width: 8em;
+        height: 4em;
+        padding: 1em 0em 0em 0.5em;}
+    .main-s2-skills-img, .main-s3-hobbies-img{
+        width: 2em;
+        height: 2em;
+        margin-bottom: 0.5em;}
+    .main-s2-skills-texto, .main-s3-hobbies-texto{
+        font-size: 12px;
+        font-weight: bolder;}
+    
+    .main-s4{
+        background: rgb(233, 247, 248);
+        padding: 0em 10em 3em 10em;}
+    .main-s4-formación-li{
+        background: rgb(240, 240, 240);
+        width: 12em;
+        height: 6em;
+        padding: 1em 0em 0em 0.5em;}
+    .div{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;}
+    .main-s4-formación-img{
+        height: 4em;}
+    .I{margin: 0.5em;}
+    .II{margin: 0.3em 2.3em;}
+    .main-s4-formación-titulo{
+        font-size: 15px;
+        font-weight: bolder;
+        margin-bottom: 0.5em;}
+    .main-s4-formación-texto{
+        font-size: 12px;
+        padding-bottom: 1em;}
+    
+    .main-s5{
+        padding: 5em 0;
+        width: 100%;
+    }
+    .main-s5-titulo{margin-top: 0;}
+    .main-s5-encriptador, .main-s5-ahorcado{
+        display: flex;
+        align-items: center;
+        margin-bottom: 1em;
+        flex-wrap: wrap;
+        justify-content: center;}
+    .img{
+        width: 30em;
+        margin-right: 3em;
+        margin-bottom: 1em;}
+    .main-s5-ahorcado-img{
+        margin-right: 0;
+    }
+    .mani{
+        order: -1;
+        margin-right: 3em;}
+    .acompañamiento{
+        display: flex;
+        flex-direction: column;
+        width: 15em;
+        text-align: justify;}
+    .main-s5-encriptador-titulo, .main-s5-ahorcado-titulo{
+        font-size: 15px;
+        font-weight: bolder;
+        margin-bottom: 0.5em;}
+    .main-s5-encriptador-texto, .main-s5-ahorcado-texto{
+        font-size: 12px;
+        padding-bottom: 1em;
+        flex-wrap: wrap;}
+    .button{
+        display: flex;
+        word-wrap: wrap;}
+    .button1{
+        font-size: 12px;
+        color: dodgerblue;
+        border: .15em solid dodgerblue;
+        width: 8em;
+        height: 3em;
+        background: white;
+        margin:.5em 1em 1em 0;}
+    .button2{
+        font-size: 12px;
+        color: white;
+        border: none;
+        height: 3em;
+        width: 8em;
+        background: dodgerblue;
+        margin:.5em 1em 1em 0;}
+    
+    .main-s6{
+        background: rgb(233, 247, 248);
+        display: flex;
+        padding: 5em;
+        justify-content: center;}
+    .main-s6-img-contacto{
+        width: 15em;
+        margin-right: 3em;}
+    
+    .main-s6-form{
+        display: flex;
+        flex-direction: column;}
+    .main-s6-contacto{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 0.5em;}
+    .main-s6-texto, .main-s6-textarea{
+        margin-bottom: 1em;
+        font-size: 12px;
+        border: none;
+        outline: none;}
+    .main-s6-form-texto{
+        background: white;
+        font-size: 10px;}
+    /*.main-s6-textarea{
+        transition-border-bottom: 1px solid dodgerblue;}*/
+    .main-s6-textarea:nth-child(4), .main-s6-textarea:nth-child(5){
+        margin-bottom: 1.5em;}
+    .main-s6-submit{
+        background: dodgerblue;
+        border: none;
+        height: 2.5em;
+        color: white;}
+    
+    
+    /*footer responsive*/
+    .container-interior{
+        background: black;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 12px;
+        color: lightgray;
+        font-weight: bolder;
+        
+    }
+    .container-interior p{
+        padding: 0;
+        margin: 0;
+    }
+    .icono-redireccionado{
+        border-radius: 50%;
+        width: 3em;
+        height: 3em;
+        margin: 0.5em 0.2em;}
+    
+    
+    .mantencion{
+        font-size: 5em;}
+    
+    /*Responsive decreciente*/
+    @media screen and (max-width: 900px){}
+    @media screen and (max-width: 800px){
+        .main-s1-texto{padding-right: 15em;}
+        .mi-foto{
+            width: 15em;
+            height: 14em;}
+        .main-s6{
+            padding-left: 4em;}
+        .main-s6-form{
+            width: 80%;}
+            .main-s2-skills-iconos, .main-s3-hobbies-cuadro{
+                flex-wrap: wrap;
+                justify-content: space-around;
+                padding: 0em 1em;}
+        .main-s2-skills-ul, .main-s3-hobbies-li{margin: 0em 5em 2em 5em;}
+        .main-s5{padding: 5em 0;}
+        .main-s6-img-contacto{
+            width: 0em;
+            margin-right: 0em;
+            visibility: hidden;}}
+    @media screen and (max-width: 700px){
+        .mani{
+            order: initial;}
+        .main-s5-encriptador, .main-s5-ahorcado{
+            margin: 0 8em;
+            justify-content: initial;}
+        }
+    @media screen and (max-width: 600px){
+        .header, .main-s1{
+            margin: 0em 0em;
+            padding: 1em 1em;}
+        .main-s1{padding: 5em 1em;}
+        .S1,.datos{
+            flex-direction: column;
+            text-align: center;}
+        .nombre{margin: 0.5em;}
+        .S2{flex-direction: column;}
+        .texto{order: initial;}
+        .main-s1-texto{padding-right: initial}
+        .main-s2, .main-s3{width: initial;}
+        .main-s5-encriptador, .main-s5-ahorcado{
+            margin: 0 4em;}}
+    @media screen and (max-width: 500px){
+        .main-s2-skills-ul, .main-s3-hobbies-li{margin: 0em 2em 2em 0em;}
+        .main-s5-encriptador, .main-s5-ahorcado{
+            margin: 0 2em;}}
+    @media screen and (max-width: 400px){
+        .main-s4{padding: 0em 5em 5em 5em;}
+        .img{width: 20em;}
+        .main-s5-encriptador, .main-s5-ahorcado{
+            margin: 0 3em;}}
+    @media screen and (max-width: 300px){
+        .texto{width: 300px;}
+        .img{width: 100%;}
+        .main-s5-encriptador, .main-s5-ahorcado{
+            margin: 0 1em;}}
